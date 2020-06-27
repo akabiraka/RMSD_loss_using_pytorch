@@ -5,8 +5,8 @@ RMSD (root mean squared deviation) loss computation using pytorch.
 It computes batch-wise RMSD loss using pytorch and quaternion math. It also translate the 3d coordinates before computing squared deviation. The code is more or less commented to understand what is going on. Moreover, special thanks to "Pande Lab at Stanford University", who implements RMSD loss using Tensorflow [1][2]. In this implemetation, I just followed their easy steps to leverage pytorch autograd functionality.
 
 ## Requirements
-Python 3
-Pytorch
+1. Python 3
+2. Pytorch
 
 ## How to run?
 An example is: 
